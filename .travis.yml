@@ -1,8 +1,8 @@
 language: python
 
-os:
-  - linux
-  - linux-ppc64le
+os: linux
+
+arch: ppc64le
 
 python:
   - 2.7
