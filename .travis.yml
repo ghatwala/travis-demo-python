@@ -1,4 +1,4 @@
-language: python
+#language: python
 
 os: linux
 arch: 
@@ -12,4 +12,7 @@ python:
   - 3.5
   - 3.6
 
-script: python --version
+script: 
+  - python --version
+  - git config --list
+
